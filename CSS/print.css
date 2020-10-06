@@ -1,0 +1,10 @@
+@media print{
+  *{
+    -webkit-print-color-adjust: exact !important;
+  }
+}
+
+@page{
+  margin: 0cm; /*print邊界*/
+  
+}

@@ -1,0 +1,19 @@
+*{
+    font-family: 微軟正黑體;
+    background-color: antiquewhite;
+}
+
+  #brandList{
+    width: 100px; height:40px;
+    border-radius: 5px;
+  }
+  #typeList{
+    width: 200px; height:40px;
+    border-radius: 5px;
+  }
+  #enter{
+    width: 60px; height: 30px;
+    font-size: 15px;
+
+    margin-top: 40px;
+  }

@@ -1,0 +1,52 @@
+*{
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:122mm 182mm;
+  font-family: 微軟正黑體;
+  
+}    
+
+#powerConsumpTion{
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: 150px;
+
+}
+
+#airType{
+  position: absolute;
+  font-size: 13px;
+  font-weight: 800;
+
+  margin-left: 110px;
+  margin-top: 290px;
+}
+
+#ratedKw{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 800;
+
+  margin-left: 110px;
+  margin-top: 340px;
+}
+
+#cspfkWh{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 800;
+
+  margin-left: 110px;
+  margin-top: 399px;
+}
+
+#certifiCateNo{
+  position: absolute;
+  font-size: 13px;
+  font-weight: 800;
+  margin-left: 110px;
+  margin-top: 553px;
+}

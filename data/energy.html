@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+      <meta charset="UTF-8" />
+      <title>Energytag</title>
+      <link rel="stylesheet" href="enertag.css">
+      <link rel="stylesheet" href="print.css" media="print">
+  </head>
+
+  <body>
+  <div id="outside">
+    <h1 class="title1">中華民國</h1>
+    <h1 class="title2">能源效率標示</h1>
+    <h2 class="title3">每年耗電量</h2>
+    <!-- 耗電量度數 -->
+    <h2 class="title4">約   度</h2>
+    <h3 class="title5">本產品能源效率為第<strong class="level">1</strong>級</h3>
+    
+    <div>
+      <table id="machineListTable">
+        <tr>
+          <th>名稱</th>
+          <!-- 機台名稱 -->
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <th>型號</th>
+          <!-- 機台型號 -->
+          <td colspan="2" id="airConType"></td>
+        </tr>
+        <tr>
+          <th>額定 <br> 冷氣能力</th>
+          <!-- 冷氣能力數 -->
+          <td id="airConPower"></td>
+          <td class="list1">kW</td>
+        </tr>
+        <tr>
+          <th> <strong>CSPF</strong> <br>冷氣季節性能因數</th>
+          <!-- 性能因數 -->
+          <td id="airConCspf"></td>
+          <td class="list1">W/W</td>
+        </tr>
+        <tr>
+          <td colspan="3">本產品能源效率符合國家標準，其分級係依經濟部104年8月11日經能自第10404603780號公告之能源效率分級基準表標示</td>
+        </tr>
+        <tr>
+          <th>登錄編號：</th>
+          <!-- 證書登陸編號 -->
+          <td colspan="2" class="list1" id="appRovedNum"></td>
+        </tr>
+      </table>
+      <h6 class="foottitle">經濟部能源局</h6>
+    </div>
+    
+  </div>
+<script>
+  var l = location;
+  var s = new URLSearchParams(l.search)
+
+  
+  document.getElementById('airConType').textContent = s.get("name");
+
+</script>
+  </body>
+
+</html>
