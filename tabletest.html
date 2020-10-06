@@ -30,33 +30,31 @@
         <button id="ok" type="submit" class="btn btn-primary">OK</button>
       </div>
     </div> -->
-    <div >
+    <!-- <div >
       <input id="print_btn" type ="button" onclick="javascript:location.href='EnergyPreview.html'" value="Print"></input>
-    </div>
+    </div> -->
     <div class="table_box">
     <table 
     id="table" 
     data-toggle="table" 
     data-filter-control="true" 
-    data-buttons-align="left" 
-    data-click-to-select="true"
     data-pagination="true"
     data-show-jump-to="true"
     data-url="https://files.r3think.com/data.json">
 
       <thead class="thead-dark">
         <tr class="text-center">
-        <th data-field="state" data-checkbox="true"></th>
         <th data-field="brand" data-filter-control="select">品牌</th>
         <th data-field="series" data-filter-control="select">Item Name</th>
         <th data-field="power">耗電量</th>
         <th data-field="type" data-filter-control="input">型號</th>
         <th data-field="cool_kw" data-filter-control="input">額定冷氣能力</th>
         <th data-field="cspf">CSPF冷氣季節性能因數</th>
-        <th data-field="cert_no">登錄編號</th>  
+        <th data-field="cert_no">登錄編號</th> 
+        <th data-field="print">能源分級列印</th> 
         </tr>
       </thead>
-    </table>
+      
   </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
