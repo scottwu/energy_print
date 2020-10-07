@@ -1,0 +1,1 @@
+var power=UrlParm.parm("power");

@@ -1,39 +1,4 @@
-var ACV101SGH = {
-  power: "2363",
-  airType: "ACV-101SG-H",
-  rated: "10.1",
-  cspf: "5.08",
-  cateNo: "ACN-109-1104"};
-
-var ACV41PV = {
-  power: "895",
-  airType: "ACV-41PV",
-  rated: "4.1",
-  cspf: "5.44",
-  cateNo: "ACN-108-0295"};
-
-var btn = document.getElementById("enter");
-btn.addEventListener('click',function(){
-    var type = ('typeList').val();
-    var pct = {};
-    var airt = {};
-    var rtk = {};
-    var cspfw = {};
-    var ctc = {};
-
-    if (type === "ACV-101SG-H") {
-      pct = power;
-      airt = airType;
-      rtk = rated;
-      cspfkWh = cspf;
-      ctc = cateNo 
-    }else if (type === "ACV-41PV"){
-      pct = power;
-      airt = airType;
-      rtk = rated;
-      cspfkWh = cspf;
-      ctc = cateNo 
-    };
-    
-
-});
+function print_btn(value, row){
+  return `<a href="EnergyPreview.html?power=${row.power}&type=${row.type}&type=${row.cool_kw}&type=${row.cspf}&type=${row.cert_no}">print</a>`;
+}
+// ?power=1114&Type=RAV-50AF-H
