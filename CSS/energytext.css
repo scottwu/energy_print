@@ -7,7 +7,7 @@
   
 }    
 
-#powerConsumpTion{
+#power{
   position: absolute;
   font-size: 30px;
   font-weight: bold;
@@ -16,7 +16,7 @@
 
 }
 
-#airType{
+#Type{
   position: absolute;
   font-size: 13px;
   font-weight: 800;
@@ -25,7 +25,7 @@
   margin-top: 290px;
 }
 
-#ratedKw{
+#cool_kw{
   position: absolute;
   font-size: 15px;
   font-weight: 800;
@@ -34,7 +34,7 @@
   margin-top: 340px;
 }
 
-#cspfkWh{
+#cspf{
   position: absolute;
   font-size: 15px;
   font-weight: 800;
@@ -43,7 +43,7 @@
   margin-top: 399px;
 }
 
-#certifiCateNo{
+#cert_no{
   position: absolute;
   font-size: 13px;
   font-weight: 800;
