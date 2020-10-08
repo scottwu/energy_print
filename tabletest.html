@@ -39,6 +39,7 @@
     data-toggle="table" 
     data-filter-control="true" 
     data-pagination="true"
+    data-show-columns="true"
     data-show-jump-to="true"
     data-url="https://files.r3think.com/data.json"
     > 
@@ -49,7 +50,7 @@
         <th data-field="series" data-filter-control="select">Item Name</th>
         <th data-field="power">耗電量</th>
         <th data-field="type" data-filter-control="input">型號</th>
-        <th data-field="cool_kw" data-filter-control="input">額定冷氣能力</th>
+        <th data-field="cool_kw"  data-filter-control="input">額定冷氣能力</th>
         <th data-field="cspf">CSPF冷氣季節性能因數</th>
         <th data-field="cert_no">登錄編號</th> 
         <th data-field="print_button" data-formatter="print_btn">列印</th> 
@@ -63,6 +64,6 @@
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.js"></script>
-    <script src="JS/test_energyprint.js"></script>
+    <script src="JS/print_btn.js"></script>
   </body>
 </html>
