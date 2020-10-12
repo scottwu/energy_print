@@ -7,3 +7,10 @@ var $table = $('#table')
   $(function() {
     $table.bootstrapTable('hideColumn', ['cool_kw','cert_no','power']);
   })
+
+  function ajaxRequest(params) {
+    var url = 'https://backend.jin-ting.com.tw/api/items/energy_label'
+    $.get(url).then(function (res) {
+      params.success(res.data)
+    })
+  }
