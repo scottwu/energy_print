@@ -1,50 +1,43 @@
-*{
-  
+* {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:122mm 182mm;
+  background-size: 122mm 182mm;
   font-family: 微軟正黑體;
-  
-}    
+}
 
-
-#power{
+#power {
   position: absolute;
   font-size: 30px;
   font-weight: bold;
   margin-left: 90px;
   margin-top: 150px;
-
 }
 
-#Type{
+#Type {
   position: absolute;
   font-size: 14px;
   font-weight: 800;
-
   margin-left: 105px;
   margin-top: 291px;
 }
 
-#cool_kw{
+#cool_kw {
   position: absolute;
   font-size: 16px;
   font-weight: 800;
-
   margin-left: 105px;
   margin-top: 338px;
 }
 
-#cspf{
+#cspf {
   position: absolute;
   font-size: 16px;
   font-weight: 800;
-
   margin-left: 105px;
   margin-top: 397px;
 }
 
-#cert_no{
+#cert_no {
   position: absolute;
   font-size: 14px;
   font-weight: 800;
