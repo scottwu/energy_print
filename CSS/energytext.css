@@ -19,35 +19,35 @@
 
 #Type{
   position: absolute;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
 
   margin-left: 105px;
-  margin-top: 285px;
+  margin-top: 291px;
 }
 
 #cool_kw{
   position: absolute;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
 
   margin-left: 105px;
-  margin-top: 328px;
+  margin-top: 338px;
 }
 
 #cspf{
   position: absolute;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
 
   margin-left: 105px;
-  margin-top: 385px;
+  margin-top: 397px;
 }
 
 #cert_no{
   position: absolute;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   margin-left: 110px;
-  margin-top: 538px;
+  margin-top: 551px;
 }
