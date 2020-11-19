@@ -10,4 +10,4 @@ document.getElementById('cspf').innerText = url.searchParams.get('cspf');
 document.getElementById('cert_no').innerText = url.searchParams.get('cert_no');
 
 }
-get_string();
+get_string();   
